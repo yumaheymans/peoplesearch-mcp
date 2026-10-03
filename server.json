@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "im.peoplesearch/email-finder",
+  "title": "PeopleSearch.im",
+  "description": "Plain-English people search with verified work emails, email verification and LinkedIn lookup.",
+  "version": "1.1.0",
+  "websiteUrl": "https://peoplesearch.im/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://peoplesearch.im/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional: your PeopleSearch.im API key (sk_sift_...) from https://peoplesearch.im/developers. Leave empty to sign in with OAuth instead.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

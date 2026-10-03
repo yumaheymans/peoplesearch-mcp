@@ -1,0 +1,42 @@
+{
+  "name": "peoplesearch-mcp",
+  "version": "1.1.0",
+  "description": "MCP server for PeopleSearch.im: search people and companies, reveal profiles, and fetch verified professional emails from your AI agent.",
+  "mcpName": "im.peoplesearch/email-finder",
+  "type": "module",
+  "bin": {
+    "peoplesearch-mcp": "index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "server.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "people-search",
+    "email-finder",
+    "email-verification",
+    "lead-generation",
+    "b2b-data",
+    "ai-agent",
+    "claude",
+    "cursor",
+    "linkedin"
+  ],
+  "homepage": "https://peoplesearch.im/mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yumaheymans/peoplesearch-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yumaheymans/peoplesearch-mcp/issues"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
